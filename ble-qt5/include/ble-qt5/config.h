@@ -1,0 +1,10 @@
+#ifndef BLE_QT5_LIB_CONFIG
+#define BLE_QT5_LIB_CONFIG
+
+#ifdef BLE_QT5_LIB
+#define BLE_QT5_SOSPEC Q_DECL_EXPORT
+#else
+#define BLE_QT5_SOSPEC Q_DECL_IMPORT
+#endif
+
+#endif
